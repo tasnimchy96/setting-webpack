@@ -10,7 +10,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Project-Presentation](#project-presentation)
   - [Live-Demo](#live-demo)
 - [:busts_in_silhouette: Authors](#authors)
 - [:telescope: Future Features](#future-features)
@@ -23,6 +22,8 @@
 
 **[Awesome Books]** is a microverse project where we build a basic website that allows users to add/remove books from a list. We achieved that by using JavaScript objects and arrays. We also dynamically modified the DOM and add basic events.
 
+
+
 ## :hammer_and_wrench: Built With
 
 ### Tech Stack
@@ -32,8 +33,10 @@ HTML, CSS and Javascript
 
 ### Key Features
 
-- **[- Set up project with Webpack]**
-
+- **[- Use Javascript, HTML & CSS linters]**
+- **[- Build a basic website that allows users to add/remove books from a list.]**
+- **[- Used JavaScript objects and arrays.]**
+- **[- Dynamically modified the DOM and add basic events.]**
 
 ## :computer: Getting Started
 
@@ -49,35 +52,32 @@ Open Terminal & Clone this repository to your desired folder:
 
 ```sh
 cd <path-to-the-folder>
-git clone https://github.com/tasnimchy96/awesome-books-es6.git
-cd bookStore.github.io.git
+git clone https://github.com/tasnimchy96/awesomeBooks-es6.github.io
+cd awesomeBooks-es6.github.io
 code .
 ```
-
 ### Install
 
 Install this project using the cloned repo or download and use the files to your local machine.
 
 ```sh
-cd <path-to-the-cloned-repo>
-code .
+npm install
 ```
-
 ### Usage
 
-To run the project open the index.html file in your web browser or you can also open live server from the IDE.
-
+```usage
+- To run the project open the index.html file in your web browser or you can also open live server from the IDE.💯
+```
 ### Run tests
 
-No test are available
-
-### Project-Presentation
-
-- We will add it later.
+```test
+npx hint .
+npx eslint .
+```
 
 ### :rocket: Live-Demo
 
-- [Live-Demo]()
+- [Live-Demo](https://tasnimchy96.github.io/awesomeBooks-es6.github.io/)
 
 ## :busts_in_silhouette: Authors
 
@@ -87,8 +87,17 @@ No test are available
 - Twitter:[@tasnimchy96](https://twitter.com/tasnimchy96)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tasnim-ahmed-chowdhury-b4504625b)
 
+:bust_in_silhouette: **Diana Beki**
+
+- GitHub: [@Github](https://github.com/DianaBeki)
+- Twitter: [@Twitter](https://twitter.com/home)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/diana-beki-b49684230/)
+
 ## :telescope: Future Features
 
+- [ ] **[Add more forms]**
+- [ ] **[Make an atractive Layout]**
+- [ ] **[Add some Javascript]**
 
 ## :handshake: Contributing
 
@@ -101,8 +110,7 @@ If you like this project feel free to share with your friends.
 
 ## :pray: Acknowledgments
 
-I would like to thank Microverse for this amazing exercise.
+I would like to thank Microverse for this amazing exercise and also like to thank for the kind collaboration of Samreen Mujtaba.
 
 ## 📝 License <a name="license"></a>
-
 This project is [MIT](./LICENSE.md) licensed.
